@@ -1,0 +1,602 @@
+2020-07-12 20:04:09  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-07-12 20:04:09  [ main:2 ] - [ INFO ]  This is info message.
+2020-07-12 20:04:09  [ main:2 ] - [ ERROR ]  This is error message.
+2020-07-12 20:04:09  [ Thread-7:20 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-8:21 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-4:21 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-6:20 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-2:21 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-10:21 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-9:21 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-3:21 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-5:20 ] - [ DEBUG ]  CookieSpec selected: default
+2020-07-12 20:04:09  [ Thread-5:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-8:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-4:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-10:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-9:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-6:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-2:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-7:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-7:33 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-3:30 ] - [ DEBUG ]  Auth cache not set in the context
+2020-07-12 20:04:09  [ Thread-2:33 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-6:32 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-9:32 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-10:32 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-5:32 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-8:32 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-4:32 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-3:34 ] - [ DEBUG ]  Connection request: [route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:04:09  [ Thread-4:48 ] - [ DEBUG ]  Connection leased: [id: 7][route: {}->http://localhost:8080][total available: 0; route allocated: 8 of 100; total allocated: 8 of 100]
+2020-07-12 20:04:09  [ Thread-3:48 ] - [ DEBUG ]  Connection leased: [id: 8][route: {}->http://localhost:8080][total available: 0; route allocated: 9 of 100; total allocated: 9 of 100]
+2020-07-12 20:04:09  [ Thread-8:48 ] - [ DEBUG ]  Connection leased: [id: 6][route: {}->http://localhost:8080][total available: 0; route allocated: 9 of 100; total allocated: 9 of 100]
+2020-07-12 20:04:09  [ Thread-10:48 ] - [ DEBUG ]  Connection leased: [id: 4][route: {}->http://localhost:8080][total available: 0; route allocated: 9 of 100; total allocated: 9 of 100]
+2020-07-12 20:04:09  [ Thread-5:48 ] - [ DEBUG ]  Connection leased: [id: 5][route: {}->http://localhost:8080][total available: 0; route allocated: 9 of 100; total allocated: 9 of 100]
+2020-07-12 20:04:09  [ Thread-6:48 ] - [ DEBUG ]  Connection leased: [id: 3][route: {}->http://localhost:8080][total available: 0; route allocated: 9 of 100; total allocated: 9 of 100]
+2020-07-12 20:04:09  [ Thread-9:48 ] - [ DEBUG ]  Connection leased: [id: 2][route: {}->http://localhost:8080][total available: 0; route allocated: 9 of 100; total allocated: 9 of 100]
+2020-07-12 20:04:09  [ Thread-7:48 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://localhost:8080][total available: 0; route allocated: 9 of 100; total allocated: 9 of 100]
+2020-07-12 20:04:09  [ Thread-6:50 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-2:48 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 9 of 100; total allocated: 9 of 100]
+2020-07-12 20:04:09  [ Thread-4:50 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-5:50 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-9:50 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-3:50 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-7:50 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-8:50 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-10:50 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-2:51 ] - [ DEBUG ]  Opening connection {}->http://localhost:8080
+2020-07-12 20:04:09  [ Thread-5:61 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-9:62 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-3:61 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-7:62 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-2:62 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-4:62 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-10:62 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-8:63 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-6:63 ] - [ DEBUG ]  Connecting to localhost/127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-3:69 ] - [ DEBUG ]  Connection established 127.0.0.1:64524<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-7:70 ] - [ DEBUG ]  Connection established 127.0.0.1:64513<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-2:70 ] - [ DEBUG ]  Connection established 127.0.0.1:64522<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-10:69 ] - [ DEBUG ]  Connection established 127.0.0.1:64523<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-2:70 ] - [ DEBUG ]  http-outgoing-0: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-9:70 ] - [ DEBUG ]  Connection established 127.0.0.1:64514<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-7:70 ] - [ DEBUG ]  http-outgoing-1: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-6:70 ] - [ DEBUG ]  Connection established 127.0.0.1:64521<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-3:70 ] - [ DEBUG ]  http-outgoing-8: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-6:71 ] - [ DEBUG ]  http-outgoing-3: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-7:71 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-9:71 ] - [ DEBUG ]  http-outgoing-2: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-2:71 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-10:70 ] - [ DEBUG ]  http-outgoing-4: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-2:72 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-9:72 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-7:72 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-6:71 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-3:71 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-6:73 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-2:73 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-7:73 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-9:72 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-10:72 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-9:74 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-6:73 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-3:73 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-10:74 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-3:74 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-10:75 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-6:76 ] - [ DEBUG ]  http-outgoing-3 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-2:76 ] - [ DEBUG ]  http-outgoing-0 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-7:76 ] - [ DEBUG ]  http-outgoing-1 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-3:76 ] - [ DEBUG ]  http-outgoing-8 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-9:76 ] - [ DEBUG ]  http-outgoing-2 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-3:77 ] - [ DEBUG ]  http-outgoing-8 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-7:76 ] - [ DEBUG ]  http-outgoing-1 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-2:76 ] - [ DEBUG ]  http-outgoing-0 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-6:76 ] - [ DEBUG ]  http-outgoing-3 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-2:77 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-7:77 ] - [ DEBUG ]  http-outgoing-1 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-3:77 ] - [ DEBUG ]  http-outgoing-8 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-9:77 ] - [ DEBUG ]  http-outgoing-2 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-3:78 ] - [ DEBUG ]  http-outgoing-8 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-10:78 ] - [ DEBUG ]  http-outgoing-4 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-7:78 ] - [ DEBUG ]  http-outgoing-1 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-2:77 ] - [ DEBUG ]  http-outgoing-0 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-6:77 ] - [ DEBUG ]  http-outgoing-3 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-2:79 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-7:78 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-10:78 ] - [ DEBUG ]  http-outgoing-4 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-3:78 ] - [ DEBUG ]  http-outgoing-8 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-9:78 ] - [ DEBUG ]  http-outgoing-2 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-3:79 ] - [ DEBUG ]  http-outgoing-8 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-10:79 ] - [ DEBUG ]  http-outgoing-4 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-7:79 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-2:79 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-6:79 ] - [ DEBUG ]  http-outgoing-3 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-2:80 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-7:80 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-10:80 ] - [ DEBUG ]  http-outgoing-4 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-3:80 ] - [ DEBUG ]  http-outgoing-8 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-9:79 ] - [ DEBUG ]  http-outgoing-2 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-2:81 ] - [ DEBUG ]  http-outgoing-0 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:81 ] - [ DEBUG ]  http-outgoing-1 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:81 ] - [ DEBUG ]  http-outgoing-8 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:81 ] - [ DEBUG ]  http-outgoing-4 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-6:80 ] - [ DEBUG ]  http-outgoing-3 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-10:82 ] - [ DEBUG ]  http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-3:81 ] - [ DEBUG ]  http-outgoing-8 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:81 ] - [ DEBUG ]  http-outgoing-1 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:81 ] - [ DEBUG ]  http-outgoing-0 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:81 ] - [ DEBUG ]  http-outgoing-2 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-2:82 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:82 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:82 ] - [ DEBUG ]  http-outgoing-8 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:82 ] - [ DEBUG ]  http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-6:82 ] - [ DEBUG ]  http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-10:83 ] - [ DEBUG ]  http-outgoing-4 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:83 ] - [ DEBUG ]  http-outgoing-8 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:83 ] - [ DEBUG ]  http-outgoing-1 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:83 ] - [ DEBUG ]  http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:84 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:84 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:83 ] - [ DEBUG ]  http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-2:84 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:84 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:84 ] - [ DEBUG ]  http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:84 ] - [ DEBUG ]  http-outgoing-4 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-6:84 ] - [ DEBUG ]  http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-10:85 ] - [ DEBUG ]  http-outgoing-4 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:85 ] - [ DEBUG ]  http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:85 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:85 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:85 ] - [ DEBUG ]  http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-2:86 ] - [ DEBUG ]  http-outgoing-0 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-7:86 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:86 ] - [ DEBUG ]  http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:85 ] - [ DEBUG ]  http-outgoing-4 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-6:85 ] - [ DEBUG ]  http-outgoing-3 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:87 ] - [ DEBUG ]  http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:86 ] - [ DEBUG ]  http-outgoing-8 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:86 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:86 ] - [ DEBUG ]  http-outgoing-0 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-9:86 ] - [ DEBUG ]  http-outgoing-2 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:87 ] - [ DEBUG ]  http-outgoing-0 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-7:87 ] - [ DEBUG ]  http-outgoing-1 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-3:87 ] - [ DEBUG ]  http-outgoing-8 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-10:87 ] - [ DEBUG ]  http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-6:87 ] - [ DEBUG ]  http-outgoing-3 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:88 ] - [ DEBUG ]  http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:88 ] - [ DEBUG ]  http-outgoing-8 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-7:88 ] - [ DEBUG ]  http-outgoing-1 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-2:88 ] - [ DEBUG ]  http-outgoing-0 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-9:87 ] - [ DEBUG ]  http-outgoing-2 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:89 ] - [ DEBUG ]  http-outgoing-0 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-7:89 ] - [ DEBUG ]  http-outgoing-1 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:89 ] - [ DEBUG ]  http-outgoing-8 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:88 ] - [ DEBUG ]  http-outgoing-4 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-6:88 ] - [ DEBUG ]  http-outgoing-3 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:91 ] - [ DEBUG ]  http-outgoing-4 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-3:90 ] - [ DEBUG ]  http-outgoing-8 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-7:90 ] - [ DEBUG ]  http-outgoing-1 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-2:90 ] - [ DEBUG ]  http-outgoing-0 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:90 ] - [ DEBUG ]  http-outgoing-2 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:92 ] - [ DEBUG ]  http-outgoing-0 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-7:91 ] - [ DEBUG ]  http-outgoing-1 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-3:91 ] - [ DEBUG ]  http-outgoing-8 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-10:91 ] - [ DEBUG ]  http-outgoing-4 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-6:91 ] - [ DEBUG ]  http-outgoing-3 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:92 ] - [ DEBUG ]  http-outgoing-4 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:93 ] - [ DEBUG ]  http-outgoing-4 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-10:93 ] - [ DEBUG ]  http-outgoing-4 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-10:93 ] - [ DEBUG ]  http-outgoing-4 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:93 ] - [ DEBUG ]  http-outgoing-4 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:93 ] - [ DEBUG ]  http-outgoing-4 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-10:93 ] - [ DEBUG ]  http-outgoing-4 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:94 ] - [ DEBUG ]  http-outgoing-4 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:94 ] - [ DEBUG ]  http-outgoing-4 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-10:94 ] - [ DEBUG ]  http-outgoing-4 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:94 ] - [ DEBUG ]  http-outgoing-4 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:94 ] - [ DEBUG ]  http-outgoing-4 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-10:94 ] - [ DEBUG ]  http-outgoing-4 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:94 ] - [ DEBUG ]  http-outgoing-4 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-10:94 ] - [ DEBUG ]  http-outgoing-4 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-10:95 ] - [ DEBUG ]  http-outgoing-4 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-10:95 ] - [ DEBUG ]  http-outgoing-4 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:95 ] - [ DEBUG ]  http-outgoing-4 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-10:95 ] - [ DEBUG ]  http-outgoing-4 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-10:95 ] - [ DEBUG ]  http-outgoing-4 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-10:95 ] - [ DEBUG ]  http-outgoing-4 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-3:92 ] - [ DEBUG ]  http-outgoing-8 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:96 ] - [ DEBUG ]  http-outgoing-8 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:96 ] - [ DEBUG ]  http-outgoing-8 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-3:96 ] - [ DEBUG ]  http-outgoing-8 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:97 ] - [ DEBUG ]  http-outgoing-8 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:97 ] - [ DEBUG ]  http-outgoing-8 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-3:97 ] - [ DEBUG ]  http-outgoing-8 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:97 ] - [ DEBUG ]  http-outgoing-8 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:97 ] - [ DEBUG ]  http-outgoing-8 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-3:97 ] - [ DEBUG ]  http-outgoing-8 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:97 ] - [ DEBUG ]  http-outgoing-8 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-3:98 ] - [ DEBUG ]  http-outgoing-8 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-3:98 ] - [ DEBUG ]  http-outgoing-8 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-3:98 ] - [ DEBUG ]  http-outgoing-8 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-7:92 ] - [ DEBUG ]  http-outgoing-1 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-2:92 ] - [ DEBUG ]  http-outgoing-0 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-9:92 ] - [ DEBUG ]  http-outgoing-2 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:99 ] - [ DEBUG ]  http-outgoing-0 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-2:99 ] - [ DEBUG ]  http-outgoing-0 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-7:98 ] - [ DEBUG ]  http-outgoing-1 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:98 ] - [ DEBUG ]  http-outgoing-8 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:93 ] - [ DEBUG ]  http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:99 ] - [ DEBUG ]  http-outgoing-8 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-7:99 ] - [ DEBUG ]  http-outgoing-1 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-2:99 ] - [ DEBUG ]  http-outgoing-0 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-9:99 ] - [ DEBUG ]  http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:100 ] - [ DEBUG ]  http-outgoing-0 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-7:100 ] - [ DEBUG ]  http-outgoing-1 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-3:100 ] - [ DEBUG ]  http-outgoing-8 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-6:100 ] - [ DEBUG ]  http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:101 ] - [ DEBUG ]  http-outgoing-8 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-7:101 ] - [ DEBUG ]  http-outgoing-1 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-2:100 ] - [ DEBUG ]  http-outgoing-0 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:100 ] - [ DEBUG ]  http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:102 ] - [ DEBUG ]  http-outgoing-0 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-7:101 ] - [ DEBUG ]  http-outgoing-1 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-6:101 ] - [ DEBUG ]  http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:102 ] - [ DEBUG ]  http-outgoing-1 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-2:102 ] - [ DEBUG ]  http-outgoing-0 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:102 ] - [ DEBUG ]  http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:103 ] - [ DEBUG ]  http-outgoing-0 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-2:103 ] - [ DEBUG ]  http-outgoing-0 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-7:102 ] - [ DEBUG ]  http-outgoing-1 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:102 ] - [ DEBUG ]  http-outgoing-3 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:103 ] - [ DEBUG ]  http-outgoing-1 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-2:103 ] - [ DEBUG ]  http-outgoing-0 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-9:103 ] - [ DEBUG ]  http-outgoing-2 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:104 ] - [ DEBUG ]  http-outgoing-2 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-2:104 ] - [ DEBUG ]  http-outgoing-0 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-7:104 ] - [ DEBUG ]  http-outgoing-1 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:103 ] - [ DEBUG ]  http-outgoing-3 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-7:104 ] - [ DEBUG ]  http-outgoing-1 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-7:105 ] - [ DEBUG ]  http-outgoing-1 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-7:105 ] - [ DEBUG ]  http-outgoing-1 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-7:105 ] - [ DEBUG ]  http-outgoing-1 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-7:106 ] - [ DEBUG ]  http-outgoing-1 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-7:106 ] - [ DEBUG ]  http-outgoing-1 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-7:107 ] - [ DEBUG ]  http-outgoing-1 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-7:107 ] - [ DEBUG ]  http-outgoing-1 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-2:104 ] - [ DEBUG ]  http-outgoing-0 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-2:108 ] - [ DEBUG ]  http-outgoing-0 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-2:108 ] - [ DEBUG ]  http-outgoing-0 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-2:108 ] - [ DEBUG ]  http-outgoing-0 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-9:104 ] - [ DEBUG ]  http-outgoing-2 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-6:105 ] - [ DEBUG ]  http-outgoing-3 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-9:109 ] - [ DEBUG ]  http-outgoing-2 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:109 ] - [ DEBUG ]  http-outgoing-3 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:109 ] - [ DEBUG ]  http-outgoing-3 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-6:110 ] - [ DEBUG ]  http-outgoing-3 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-6:110 ] - [ DEBUG ]  http-outgoing-3 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:110 ] - [ DEBUG ]  http-outgoing-3 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:110 ] - [ DEBUG ]  http-outgoing-3 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-6:110 ] - [ DEBUG ]  http-outgoing-3 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:110 ] - [ DEBUG ]  http-outgoing-3 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:111 ] - [ DEBUG ]  http-outgoing-3 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-6:111 ] - [ DEBUG ]  http-outgoing-3 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:111 ] - [ DEBUG ]  http-outgoing-3 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:111 ] - [ DEBUG ]  http-outgoing-3 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-6:111 ] - [ DEBUG ]  http-outgoing-3 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:112 ] - [ DEBUG ]  http-outgoing-3 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-6:112 ] - [ DEBUG ]  http-outgoing-3 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-6:112 ] - [ DEBUG ]  http-outgoing-3 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-6:112 ] - [ DEBUG ]  http-outgoing-3 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:112 ] - [ DEBUG ]  http-outgoing-3 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-6:112 ] - [ DEBUG ]  http-outgoing-3 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-6:112 ] - [ DEBUG ]  http-outgoing-3 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-6:113 ] - [ DEBUG ]  http-outgoing-3 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-9:112 ] - [ DEBUG ]  http-outgoing-2 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-9:113 ] - [ DEBUG ]  http-outgoing-2 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-9:113 ] - [ DEBUG ]  http-outgoing-2 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:114 ] - [ DEBUG ]  http-outgoing-2 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:114 ] - [ DEBUG ]  http-outgoing-2 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-9:114 ] - [ DEBUG ]  http-outgoing-2 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:114 ] - [ DEBUG ]  http-outgoing-2 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:114 ] - [ DEBUG ]  http-outgoing-2 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-9:115 ] - [ DEBUG ]  http-outgoing-2 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:115 ] - [ DEBUG ]  http-outgoing-2 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:115 ] - [ DEBUG ]  http-outgoing-2 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-9:115 ] - [ DEBUG ]  http-outgoing-2 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:115 ] - [ DEBUG ]  http-outgoing-2 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-9:115 ] - [ DEBUG ]  http-outgoing-2 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-9:115 ] - [ DEBUG ]  http-outgoing-2 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-9:116 ] - [ DEBUG ]  http-outgoing-2 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:116 ] - [ DEBUG ]  http-outgoing-2 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-9:116 ] - [ DEBUG ]  http-outgoing-2 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-9:116 ] - [ DEBUG ]  http-outgoing-2 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-9:116 ] - [ DEBUG ]  http-outgoing-2 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-7:114 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:117 ] - [ DEBUG ]  http-outgoing-1 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:117 ] - [ DEBUG ]  http-outgoing-1 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:117 ] - [ DEBUG ]  http-outgoing-1 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:118 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:118 ] - [ DEBUG ]  http-outgoing-1 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-6:118 ] - [ DEBUG ]  http-outgoing-3 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-6:120 ] - [ DEBUG ]  http-outgoing-3 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-6:120 ] - [ DEBUG ]  http-outgoing-3 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-6:120 ] - [ DEBUG ]  http-outgoing-3 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-6:120 ] - [ DEBUG ]  http-outgoing-3 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:118 ] - [ DEBUG ]  http-outgoing-2 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:121 ] - [ DEBUG ]  http-outgoing-2 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:121 ] - [ DEBUG ]  http-outgoing-2 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:121 ] - [ DEBUG ]  http-outgoing-2 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:121 ] - [ DEBUG ]  http-outgoing-2 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-9:122 ] - [ DEBUG ]  http-outgoing-2 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-7:122 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-7:122 ] - [ DEBUG ]  http-outgoing-1 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-3:121 ] - [ DEBUG ]  http-outgoing-8 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:123 ] - [ DEBUG ]  http-outgoing-8 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:123 ] - [ DEBUG ]  http-outgoing-8 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-3:123 ] - [ DEBUG ]  http-outgoing-8 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:121 ] - [ DEBUG ]  http-outgoing-4 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:123 ] - [ DEBUG ]  http-outgoing-4 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:123 ] - [ DEBUG ]  http-outgoing-4 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:123 ] - [ DEBUG ]  http-outgoing-4 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:124 ] - [ DEBUG ]  http-outgoing-4 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-10:124 ] - [ DEBUG ]  http-outgoing-4 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-10:124 ] - [ DEBUG ]  http-outgoing-4 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-10:124 ] - [ DEBUG ]  http-outgoing-4 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-3:123 ] - [ DEBUG ]  http-outgoing-8 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:122 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-7:122 ] - [ DEBUG ]  http-outgoing-1 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-9:122 ] - [ DEBUG ]  http-outgoing-2 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-6:122 ] - [ DEBUG ]  http-outgoing-3 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-9:125 ] - [ DEBUG ]  http-outgoing-2 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-7:125 ] - [ DEBUG ]  http-outgoing-1 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-2:125 ] - [ DEBUG ]  http-outgoing-0 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:126 ] - [ DEBUG ]  http-outgoing-0 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:126 ] - [ DEBUG ]  http-outgoing-0 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:126 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-2:126 ] - [ DEBUG ]  http-outgoing-0 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-2:126 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-2:127 ] - [ DEBUG ]  http-outgoing-0 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-2:127 ] - [ DEBUG ]  http-outgoing-0 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-2:127 ] - [ DEBUG ]  http-outgoing-0 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-3:124 ] - [ DEBUG ]  http-outgoing-8 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-3:127 ] - [ DEBUG ]  http-outgoing-8 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-3:128 ] - [ DEBUG ]  http-outgoing-8 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-3:128 ] - [ DEBUG ]  http-outgoing-8 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-3:128 ] - [ DEBUG ]  http-outgoing-8 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-10:124 ] - [ DEBUG ]  http-outgoing-4 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-10:129 ] - [ DEBUG ]  http-outgoing-4 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-9:125 ] - [ DEBUG ]  http-outgoing-2 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-6:125 ] - [ DEBUG ]  http-outgoing-3 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-6:130 ] - [ DEBUG ]  http-outgoing-3 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-6:130 ] - [ DEBUG ]  http-outgoing-3 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-9:130 ] - [ DEBUG ]  http-outgoing-2 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-6:135 ] - [ DEBUG ]  http-outgoing-3 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-2:136 ] - [ DEBUG ]  http-outgoing-0 << "end of stream"
+2020-07-12 20:04:09  [ Thread-2:136 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2020-07-12 20:04:09  [ Thread-10:136 ] - [ DEBUG ]  http-outgoing-4 << "end of stream"
+2020-07-12 20:04:09  [ Thread-10:136 ] - [ DEBUG ]  http-outgoing-4: Close connection
+2020-07-12 20:04:09  [ Thread-7:136 ] - [ DEBUG ]  http-outgoing-1 << "end of stream"
+2020-07-12 20:04:09  [ Thread-7:136 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2020-07-12 20:04:09  [ Thread-3:135 ] - [ DEBUG ]  http-outgoing-8 << "end of stream"
+2020-07-12 20:04:09  [ Thread-3:137 ] - [ DEBUG ]  http-outgoing-8: Close connection
+2020-07-12 20:04:09  [ Thread-9:135 ] - [ DEBUG ]  http-outgoing-2 << "end of stream"
+2020-07-12 20:04:09  [ Thread-6:136 ] - [ DEBUG ]  http-outgoing-3 << "end of stream"
+2020-07-12 20:04:09  [ Thread-6:137 ] - [ DEBUG ]  http-outgoing-3: Close connection
+2020-07-12 20:04:09  [ Thread-9:137 ] - [ DEBUG ]  http-outgoing-2: Close connection
+2020-07-12 20:04:09  [ Thread-10:139 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-10:140 ] - [ DEBUG ]  Connection released: [id: 4][route: {}->http://localhost:8080][total available: 0; route allocated: 8 of 100; total allocated: 8 of 100]
+2020-07-12 20:04:09  [ Thread-9:140 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-9:140 ] - [ DEBUG ]  Connection released: [id: 2][route: {}->http://localhost:8080][total available: 0; route allocated: 7 of 100; total allocated: 7 of 100]
+2020-07-12 20:04:09  [ Thread-3:141 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-3:141 ] - [ DEBUG ]  Connection released: [id: 8][route: {}->http://localhost:8080][total available: 0; route allocated: 6 of 100; total allocated: 6 of 100]
+2020-07-12 20:04:09  [ Thread-7:141 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-6:141 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-6:141 ] - [ DEBUG ]  Connection released: [id: 3][route: {}->http://localhost:8080][total available: 0; route allocated: 4 of 100; total allocated: 4 of 100]
+2020-07-12 20:04:09  [ Thread-7:141 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://localhost:8080][total available: 0; route allocated: 5 of 100; total allocated: 5 of 100]
+2020-07-12 20:04:09  [ Thread-2:142 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-2:142 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://localhost:8080][total available: 0; route allocated: 3 of 100; total allocated: 3 of 100]
+2020-07-12 20:04:09  [ Thread-8:177 ] - [ DEBUG ]  Connection established 127.0.0.1:64525<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-8:177 ] - [ DEBUG ]  http-outgoing-6: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-8:178 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-8:178 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-5:178 ] - [ DEBUG ]  Connection established 127.0.0.1:64527<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-5:178 ] - [ DEBUG ]  http-outgoing-5: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-5:179 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-5:179 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-4:178 ] - [ DEBUG ]  Connection established 127.0.0.1:64526<->127.0.0.1:8080
+2020-07-12 20:04:09  [ Thread-8:178 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-4:179 ] - [ DEBUG ]  http-outgoing-7: set socket timeout to 120000
+2020-07-12 20:04:09  [ Thread-5:179 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-4:180 ] - [ DEBUG ]  Executing request POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-4:180 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-8:179 ] - [ DEBUG ]  http-outgoing-6 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-4:180 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2020-07-12 20:04:09  [ Thread-5:180 ] - [ DEBUG ]  http-outgoing-5 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-4:181 ] - [ DEBUG ]  http-outgoing-7 >> POST / HTTP/1.1
+2020-07-12 20:04:09  [ Thread-8:180 ] - [ DEBUG ]  http-outgoing-6 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-4:181 ] - [ DEBUG ]  http-outgoing-7 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-5:181 ] - [ DEBUG ]  http-outgoing-5 >> Content-type: text/xml; charset=GBK
+2020-07-12 20:04:09  [ Thread-4:181 ] - [ DEBUG ]  http-outgoing-7 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-4:182 ] - [ DEBUG ]  http-outgoing-7 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-4:182 ] - [ DEBUG ]  http-outgoing-7 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-8:181 ] - [ DEBUG ]  http-outgoing-6 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-4:182 ] - [ DEBUG ]  http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-5:181 ] - [ DEBUG ]  http-outgoing-5 >> Content-Length: 1085
+2020-07-12 20:04:09  [ Thread-4:182 ] - [ DEBUG ]  http-outgoing-7 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-4:182 ] - [ DEBUG ]  http-outgoing-7 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:183 ] - [ DEBUG ]  http-outgoing-7 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:183 ] - [ DEBUG ]  http-outgoing-7 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:183 ] - [ DEBUG ]  http-outgoing-7 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:182 ] - [ DEBUG ]  http-outgoing-6 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-8:183 ] - [ DEBUG ]  http-outgoing-6 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-4:183 ] - [ DEBUG ]  http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:182 ] - [ DEBUG ]  http-outgoing-5 >> Host: localhost:8080
+2020-07-12 20:04:09  [ Thread-4:184 ] - [ DEBUG ]  http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:184 ] - [ DEBUG ]  http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:184 ] - [ DEBUG ]  http-outgoing-7 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:184 ] - [ DEBUG ]  http-outgoing-7 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-4:184 ] - [ DEBUG ]  http-outgoing-7 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-8:183 ] - [ DEBUG ]  http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-4:184 ] - [ DEBUG ]  http-outgoing-7 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:184 ] - [ DEBUG ]  http-outgoing-5 >> Connection: Keep-Alive
+2020-07-12 20:04:09  [ Thread-5:185 ] - [ DEBUG ]  http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)
+2020-07-12 20:04:09  [ Thread-5:185 ] - [ DEBUG ]  http-outgoing-5 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-5:185 ] - [ DEBUG ]  http-outgoing-5 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:185 ] - [ DEBUG ]  http-outgoing-5 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:185 ] - [ DEBUG ]  http-outgoing-5 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:186 ] - [ DEBUG ]  http-outgoing-5 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:186 ] - [ DEBUG ]  http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:186 ] - [ DEBUG ]  http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:186 ] - [ DEBUG ]  http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:186 ] - [ DEBUG ]  http-outgoing-5 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:186 ] - [ DEBUG ]  http-outgoing-5 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-5:186 ] - [ DEBUG ]  http-outgoing-5 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-8:185 ] - [ DEBUG ]  http-outgoing-6 >> Accept-Encoding: gzip,deflate
+2020-07-12 20:04:09  [ Thread-4:185 ] - [ DEBUG ]  http-outgoing-7 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-4:187 ] - [ DEBUG ]  http-outgoing-7 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-4:187 ] - [ DEBUG ]  http-outgoing-7 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:187 ] - [ DEBUG ]  http-outgoing-6 >> "POST / HTTP/1.1[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:186 ] - [ DEBUG ]  http-outgoing-5 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:187 ] - [ DEBUG ]  http-outgoing-5 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-5:188 ] - [ DEBUG ]  http-outgoing-5 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-5:188 ] - [ DEBUG ]  http-outgoing-5 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:188 ] - [ DEBUG ]  http-outgoing-5 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:188 ] - [ DEBUG ]  http-outgoing-5 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-5:188 ] - [ DEBUG ]  http-outgoing-5 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:188 ] - [ DEBUG ]  http-outgoing-5 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:188 ] - [ DEBUG ]  http-outgoing-5 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-5:189 ] - [ DEBUG ]  http-outgoing-5 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:189 ] - [ DEBUG ]  http-outgoing-5 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:189 ] - [ DEBUG ]  http-outgoing-5 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-5:189 ] - [ DEBUG ]  http-outgoing-5 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:189 ] - [ DEBUG ]  http-outgoing-5 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-5:189 ] - [ DEBUG ]  http-outgoing-5 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-5:189 ] - [ DEBUG ]  http-outgoing-5 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-5:189 ] - [ DEBUG ]  http-outgoing-5 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:190 ] - [ DEBUG ]  http-outgoing-5 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-5:190 ] - [ DEBUG ]  http-outgoing-5 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-8:187 ] - [ DEBUG ]  http-outgoing-6 >> "Content-type: text/xml; charset=GBK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:187 ] - [ DEBUG ]  http-outgoing-7 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-4:191 ] - [ DEBUG ]  http-outgoing-7 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-4:191 ] - [ DEBUG ]  http-outgoing-7 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-4:191 ] - [ DEBUG ]  http-outgoing-7 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-4:191 ] - [ DEBUG ]  http-outgoing-7 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-4:192 ] - [ DEBUG ]  http-outgoing-7 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:191 ] - [ DEBUG ]  http-outgoing-6 >> "Content-Length: 1085[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:191 ] - [ DEBUG ]  http-outgoing-5 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-5:192 ] - [ DEBUG ]  http-outgoing-5 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-8:192 ] - [ DEBUG ]  http-outgoing-6 >> "Host: localhost:8080[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:192 ] - [ DEBUG ]  http-outgoing-7 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-4:192 ] - [ DEBUG ]  http-outgoing-7 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-8:192 ] - [ DEBUG ]  http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:193 ] - [ DEBUG ]  http-outgoing-7 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-4:193 ] - [ DEBUG ]  http-outgoing-7 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-4:193 ] - [ DEBUG ]  http-outgoing-7 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-4:193 ] - [ DEBUG ]  http-outgoing-7 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-4:193 ] - [ DEBUG ]  http-outgoing-7 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-4:193 ] - [ DEBUG ]  http-outgoing-7 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-4:194 ] - [ DEBUG ]  http-outgoing-7 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-4:194 ] - [ DEBUG ]  http-outgoing-7 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-8:193 ] - [ DEBUG ]  http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_201)[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:194 ] - [ DEBUG ]  http-outgoing-7 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-8:194 ] - [ DEBUG ]  http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:195 ] - [ DEBUG ]  http-outgoing-6 >> "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:195 ] - [ DEBUG ]  http-outgoing-6 >> " <?xml version="1.0" encoding="utf-8"?>[\n]"
+2020-07-12 20:04:09  [ Thread-8:195 ] - [ DEBUG ]  http-outgoing-6 >> "<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">[\n]"
+2020-07-12 20:04:09  [ Thread-8:195 ] - [ DEBUG ]  http-outgoing-6 >> "    <xsd:element name="DeliverySession" type="DeliverySessionCreationType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:196 ] - [ DEBUG ]  http-outgoing-6 >> "    <xsd:complexType name="DeliverySessionCreationType">[\n]"
+2020-07-12 20:04:09  [ Thread-8:196 ] - [ DEBUG ]  http-outgoing-6 >> "        <xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-8:196 ] - [ DEBUG ]  http-outgoing-6 >> "            <xsd:element name="DeliverySessionId" type="xsd:unsignedInt"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:196 ] - [ DEBUG ]  http-outgoing-6 >> "            <xsd:element name="Action" type="ActionType"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:196 ] - [ DEBUG ]  http-outgoing-6 >> "            <xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-8:196 ] - [ DEBUG ]  http-outgoing-6 >> "                <xsd:element name="TMGIPool" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:197 ] - [ DEBUG ]  http-outgoing-6 >> "                <xsd:element name="TMGI" type=" xsd:string "/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:197 ] - [ DEBUG ]  http-outgoing-6 >> "            </xsd:choice>[\n]"
+2020-07-12 20:04:09  [ Thread-8:197 ] - [ DEBUG ]  http-outgoing-6 >> "            <xsd:element name="StartTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:197 ] - [ DEBUG ]  http-outgoing-6 >> "            <xsd:element name="StopTime" type="xsd:unsignedInt" minOccurs="0"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:197 ] - [ DEBUG ]  http-outgoing-6 >> "        </xsd:sequence>[\n]"
+2020-07-12 20:04:09  [ Thread-8:197 ] - [ DEBUG ]  http-outgoing-6 >> "        <xsd:attribute name="Version" type="xsd:string" use="required"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:197 ] - [ DEBUG ]  http-outgoing-6 >> "    </xsd:complexType>[\n]"
+2020-07-12 20:04:09  [ Thread-8:198 ] - [ DEBUG ]  http-outgoing-6 >> "    <xsd:simpleType name="ActionType">[\n]"
+2020-07-12 20:04:09  [ Thread-8:198 ] - [ DEBUG ]  http-outgoing-6 >> "        <xsd:restriction base="xsd:string">[\n]"
+2020-07-12 20:04:09  [ Thread-8:198 ] - [ DEBUG ]  http-outgoing-6 >> "            <xsd:enumeration value="Start"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:198 ] - [ DEBUG ]  http-outgoing-6 >> "            <xsd:enumeration value="Stop"/>[\n]"
+2020-07-12 20:04:09  [ Thread-8:198 ] - [ DEBUG ]  http-outgoing-6 >> "        </xsd:restriction>[\n]"
+2020-07-12 20:04:09  [ Thread-8:198 ] - [ DEBUG ]  http-outgoing-6 >> "    </xsd:simpleType>[\n]"
+2020-07-12 20:04:09  [ Thread-8:198 ] - [ DEBUG ]  http-outgoing-6 >> "</xsd:schema>"
+2020-07-12 20:04:09  [ Thread-8:199 ] - [ DEBUG ]  http-outgoing-6 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:200 ] - [ DEBUG ]  http-outgoing-6 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:200 ] - [ DEBUG ]  http-outgoing-6 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:200 ] - [ DEBUG ]  http-outgoing-6 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:200 ] - [ DEBUG ]  http-outgoing-6 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:200 ] - [ DEBUG ]  http-outgoing-5 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:200 ] - [ DEBUG ]  http-outgoing-6 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-5:201 ] - [ DEBUG ]  http-outgoing-5 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:201 ] - [ DEBUG ]  http-outgoing-5 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:201 ] - [ DEBUG ]  http-outgoing-6 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-5:201 ] - [ DEBUG ]  http-outgoing-5 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:201 ] - [ DEBUG ]  http-outgoing-7 << "HTTP/1.0 200 OK[\r][\n]"
+2020-07-12 20:04:09  [ Thread-8:201 ] - [ DEBUG ]  http-outgoing-6 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-4:201 ] - [ DEBUG ]  http-outgoing-7 << "Server: BaseHTTP/0.6 Python/3.7.2[\r][\n]"
+2020-07-12 20:04:09  [ Thread-5:201 ] - [ DEBUG ]  http-outgoing-5 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:202 ] - [ DEBUG ]  http-outgoing-7 << "Date: Sun, 12 Jul 2020 12:04:09 GMT[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:202 ] - [ DEBUG ]  http-outgoing-7 << "Content-type: text/html[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:202 ] - [ DEBUG ]  http-outgoing-7 << "[\r][\n]"
+2020-07-12 20:04:09  [ Thread-4:202 ] - [ DEBUG ]  http-outgoing-7 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-4:202 ] - [ DEBUG ]  http-outgoing-7 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-4:202 ] - [ DEBUG ]  http-outgoing-7 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-4:203 ] - [ DEBUG ]  http-outgoing-7 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-4:203 ] - [ DEBUG ]  http-outgoing-7 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-8:201 ] - [ DEBUG ]  http-outgoing-6 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-5:202 ] - [ DEBUG ]  http-outgoing-5 << "POST request for /"
+2020-07-12 20:04:09  [ Thread-8:204 ] - [ DEBUG ]  http-outgoing-6 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-5:204 ] - [ DEBUG ]  http-outgoing-5 << HTTP/1.0 200 OK
+2020-07-12 20:04:09  [ Thread-4:204 ] - [ DEBUG ]  http-outgoing-7 << "end of stream"
+2020-07-12 20:04:09  [ Thread-5:204 ] - [ DEBUG ]  http-outgoing-5 << Server: BaseHTTP/0.6 Python/3.7.2
+2020-07-12 20:04:09  [ Thread-4:204 ] - [ DEBUG ]  http-outgoing-7: Close connection
+2020-07-12 20:04:09  [ Thread-4:204 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-4:204 ] - [ DEBUG ]  Connection released: [id: 7][route: {}->http://localhost:8080][total available: 0; route allocated: 2 of 100; total allocated: 2 of 100]
+2020-07-12 20:04:09  [ Thread-8:204 ] - [ DEBUG ]  http-outgoing-6 << "end of stream"
+2020-07-12 20:04:09  [ Thread-5:204 ] - [ DEBUG ]  http-outgoing-5 << Date: Sun, 12 Jul 2020 12:04:09 GMT
+2020-07-12 20:04:09  [ Thread-8:224 ] - [ DEBUG ]  http-outgoing-6: Close connection
+2020-07-12 20:04:09  [ Thread-5:224 ] - [ DEBUG ]  http-outgoing-5 << Content-type: text/html
+2020-07-12 20:04:09  [ Thread-8:225 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-8:225 ] - [ DEBUG ]  Connection released: [id: 6][route: {}->http://localhost:8080][total available: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-07-12 20:04:09  [ Thread-5:225 ] - [ DEBUG ]  http-outgoing-5 << "end of stream"
+2020-07-12 20:04:09  [ Thread-5:225 ] - [ DEBUG ]  http-outgoing-5: Close connection
+2020-07-12 20:04:09  [ Thread-5:225 ] - [ DEBUG ]  Connection discarded
+2020-07-12 20:04:09  [ Thread-5:225 ] - [ DEBUG ]  Connection released: [id: 5][route: {}->http://localhost:8080][total available: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-07-12 20:05:09  [ Thread-1:60001 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:05:09  [ Thread-1:60004 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:06:09  [ Thread-1:120011 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:06:09  [ Thread-1:120012 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:07:09  [ Thread-1:180015 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:07:09  [ Thread-1:180016 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:08:09  [ Thread-1:240022 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:08:09  [ Thread-1:240023 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:09:09  [ Thread-1:300027 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:09:09  [ Thread-1:300029 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:10:09  [ Thread-1:360035 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:10:09  [ Thread-1:360037 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:11:09  [ Thread-1:420043 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:11:09  [ Thread-1:420044 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:12:09  [ Thread-1:480049 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:12:09  [ Thread-1:480051 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:13:09  [ Thread-1:540052 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:13:09  [ Thread-1:540053 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:14:09  [ Thread-1:600057 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:14:09  [ Thread-1:600057 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:15:09  [ Thread-1:660060 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:15:09  [ Thread-1:660060 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:16:09  [ Thread-1:720063 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:16:09  [ Thread-1:720064 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:17:09  [ Thread-1:780069 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:17:09  [ Thread-1:780070 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:18:09  [ Thread-1:840076 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:18:09  [ Thread-1:840076 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:19:09  [ Thread-1:900078 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:19:09  [ Thread-1:900079 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
+2020-07-12 20:20:09  [ Thread-1:960083 ] - [ DEBUG ]  Closing expired connections
+2020-07-12 20:20:09  [ Thread-1:960084 ] - [ DEBUG ]  Closing connections idle longer than 60000 MILLISECONDS
